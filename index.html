@@ -11,15 +11,39 @@
   </head>
   
   <body>
-          <p class="text">阿木龙今天也有很想郝百合。</p>
+          <p class="text">阿木龙每天都有很想郝百合。</p><br>
           <p class="text">祝你有个美好的一天。</p>
-
 
 <style type="text/css">
 
-    body {
-        background-color: #99ccff;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #34ac40, #2c8ae8, #dc47cd, #e7e373);
+    background-size: 500%;
+
+    animation: bgAnimation 6s linear infinite;
+    flex-direction: column;
+}
+
+
+@keyframes bgAnimation {
+    0% {
+        background-position: 0% 50%;
     }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
  p {
   text-decoration: none;
@@ -28,15 +52,13 @@
 }
 
 .text {
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: -20px;
   text-align: center;
-  color: black;
-  font-size:18px;
-  font-weight: 800;
+  color: white;
+  font-size:30px;
+  font-weight: 600;
 }
-
-  </style>
-
+</style>
 </body>
 </html>
