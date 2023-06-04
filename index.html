@@ -1,1 +1,59 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="shortcut icon" type="image/x-icon" href="https://amulong.top/assets/img/emo-pig.png" /><link rel="stylesheet" href="https://amulong.top/assets/css/styles.css" /><title>天天开心</title></head><body><main class="main"><section class="about section" id="about"><h2 class="section__title" i18n="about__title"></h2><span class="section__subtitle" i18n="about__subtitle"> </span><div class="about__container container"><div class="about__data" style="margin-top: -20px;"><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;">顺其自然。</p><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;">我的意思是，人只是在无能为力的时候说顺其自然。</p><br><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;">世界上的所有人都会记得：</p><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;">15 岁的阿木龙很喜欢郝百合。</p><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;">现实无情且残酷，奈何我们并没有办法克服。</p><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;">因为马尔克斯在《霍乱时期的爱情》里早就告诉我们：</p><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;">世上没有比爱更艰难的事了。</p><br><p class="introduce-link" style="text-indent: 2em;line-height: 40px;text-align: justify;text-align: right;">阿木龙天天开心</p></div></div></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/emo-pig.png" />
+    <!--==================== UNICONS 图标====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"/>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="https://amulong.top/assets/css/swiper-bundle.min.css" />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://amulong.top/assets/css/styles.css" />
+    <title>添加微信</title>
+  </head>
+  
+  <body class="dark-theme">
+    <!--==================== HEADER ====================-->
+    <header class="header scroll-header" id="header">
+      <nav class="nav container">
+        <a href="amulong.top" class="nav__logo"></a>
+
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+        <h1>需要密码</h1>
+        <h4 style="color: var(--text-color-light);margin-top: 5px;font-weight: 400;">这里是阿木龙的一些小秘密。输入密码以访问</h4>
+        <form action="/secret" method="POST" onsubmit="return validateForm()">
+          <input type="password" name="password" placeholder="请输入密码" maxlength="6" required>
+          <br />
+          <button type="submit">验证</button>
+        </form>
+
+      </section>
+    </main>
+    
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="https://amulong.top/assets/js/swiper-bundle.min.js"></script>
+
+    <!-- iconfont JS -->
+    <script src="https://amulong.top/assets/js/iconfont.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="https://amulong.top/assets/js/main.js"></script>
+
+    <script src="./script.js"></script>
